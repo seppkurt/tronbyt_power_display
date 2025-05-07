@@ -1,10 +1,3 @@
-   tronbyt_apps/
-   └── power_display/
-       ├── power_display.star    # Main Starlark app
-       ├── manifest.yaml         # App configuration
-       └── README.md            # Documentation
-
-
 I'll summarize our plan for the Tronbyt + Home Assistant integration, so you have it for reference when you start the new session:
 
 1. **Project Structure**
