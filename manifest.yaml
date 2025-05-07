@@ -1,0 +1,22 @@
+# manifest.yaml
+# Manifest for Tronbyt Power Display App
+
+name: Power Display
+slug: power_display
+description: Display real-time power consumption from Home Assistant.
+
+# Configuration options for the app
+config:
+  home_assistant_url:
+    type: string
+    description: URL of your Home Assistant instance
+  api_token:
+    type: string
+    description: Long-lived access token for Home Assistant
+  entity_id:
+    type: string
+    description: Home Assistant entity ID (e.g., power.current_power)
+  update_frequency:
+    type: int
+    description: Update interval in seconds
+    default: 10 
